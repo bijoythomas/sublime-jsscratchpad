@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "JS Scratch Pad",
+    "command": "js_scratch_pad", "args": {"new_pad": true}
+  }
+]
