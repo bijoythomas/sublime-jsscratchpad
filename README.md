@@ -5,7 +5,7 @@ Try out JS right from Sublime
 Requirements
 ============
 None if you are trying out vanilla JS. If you want to play with JS libs, simply
-edit the pluign settings
+edit the plugin settings
 
 Installation
 ------------
@@ -35,8 +35,10 @@ The plugin should be picked up automatically. If not, restart Sublime Text.
 
 Usage
 -----
-Simply use the JS Scratch Pad command to open a new tab in Sublime, type in your JS code
-and hit ctrl+shift+r
+Use the **JS Scratch Pad** Sublime command to open a scratch pad in Sublime.
+![Command](https://github.com/bijoythomas/sublime-jsscratchpad/blob/master/plugin_command.png)
+
+Type in your JS code and hit **ctrl+shift+r** to run it.
 
 The plugin adds the following key bindings.
 
@@ -49,15 +51,15 @@ The plugin adds the following key bindings.
 ```
 
 You can tweak the plugin settings to provide the path to the node modules dir and
-how you would like to access the imported libs
+how you would like to access the imported libs in the scratch pad
 
 ```
 {
   "node_modules_path": "/Users/me/project/node_modules",
   "libs" : {
-    "ramda": "R",
-    "moment": "moment",
-    "q" : "Q"
+    "ramda": "R", // access ramda functions with the R. prefix
+    "moment": "moment", // access moment functions with the moment. prefix
+    "q" : "Q" // access Q library functions with Q. prefix
   }
 }
 ```
