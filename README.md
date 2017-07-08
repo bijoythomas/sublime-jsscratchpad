@@ -4,8 +4,9 @@ Try out JS right from Sublime
 
 Requirements
 ============
-None if you are trying out vanilla JS. If you want to play with JS libs, simply
-edit the plugin settings
+Needs the NodeJS **node** command to be available in the shell PATH and that's about it
+for trying out vanilla JS. If you need to include external JS libs, you can configure them
+in the plugin settings.
 
 Installation
 ------------
@@ -50,6 +51,8 @@ The plugin adds the following key bindings.
 ]
 ```
 
+Settings
+--------
 You can tweak the plugin settings to provide the path to the node modules dir and
 how you would like to access the imported libs in the scratch pad
 
