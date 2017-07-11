@@ -1,5 +1,5 @@
 [
   {
-    "keys": ["ctrl+shift+r"], "command": "js_scratch_pad"
+    "keys": ["alt+shift+r"], "command": "js_scratch_pad"
   }
 ]
