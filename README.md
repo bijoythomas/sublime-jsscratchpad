@@ -37,7 +37,7 @@ The plugin should be picked up automatically. If not, restart Sublime Text.
 ## Usage
 
 Use the **JS Scratch Pad** Sublime command to open a scratch pad in Sublime.
-![Screenshot](https://github.com/bijoythomas/sublime-jsscratchpad/blob/master/plugin_command.png)
+![Screenshot](https://github.com/bijoythomas/sublime-jsscratchpad/raw/master/plugin_command.png)
 
 
 Type in your JS code and hit **ctrl+shift+r** to run it.
@@ -70,6 +70,6 @@ how you would like to access the imported libs in the scratch pad
 
 ## Screenshot
 
-![Screenshot](https://github.com/bijoythomas/sublime-jsscratchpad/blob/master/screenshot.png)
+![Screenshot](https://github.com/bijoythomas/sublime-jsscratchpad/raw/master/screenshot.png)
 
 
