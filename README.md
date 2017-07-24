@@ -40,14 +40,14 @@ Use the **JS Scratch Pad** Sublime command to open a scratch pad in Sublime.
 ![Screenshot](https://github.com/bijoythomas/sublime-jsscratchpad/raw/master/plugin_command.png)
 
 
-Type in your JS code and hit **ctrl+shift+r** to run it.
+Type in your JS code and hit **alt+shift+r** to run it.
 
 The plugin adds the following key bindings.
 
 ```
 [
   {
-    "keys": ["ctrl+shift+r"], "command": "js_scratch_pad"
+    "keys": ["alt+shift+r"], "command": "js_scratch_pad"
   }
 ]
 ```
