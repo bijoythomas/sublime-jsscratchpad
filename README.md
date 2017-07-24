@@ -12,7 +12,7 @@ in the plugin settings.
 
 To install it **manually with Git:** Clone the repository in your Sublime Text 3 Packages directory:
 
-    git clone https://github.com/bijoythomas/sublime-ramda-repl ramdarepl
+    git clone https://github.com/bijoythomas/sublime-jsscratchpad JsScratchPad
 
 
 The "Packages" directory should be located at:
