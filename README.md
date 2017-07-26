@@ -10,7 +10,7 @@ in the plugin settings.
 
 ## Installation
 
-To install it **manually with Git:** Clone the repository in your Sublime Text 3 Packages directory:
+Either through **Package Control** or to install it **manually with Git:** Clone the repository in your Sublime Text 3 Packages directory:
 
     git clone https://github.com/bijoythomas/sublime-jsscratchpad JsScratchPad
 
@@ -54,7 +54,7 @@ The plugin adds the following key bindings.
 
 ## Settings
 
-You can tweak the plugin settings to provide the path to the node modules dir and
+You can tweak the plugin settings through **Package Settings > JavaScript Scratch Pad** to provide the path to the node modules dir and
 how you would like to access the imported libs in the scratch pad
 
 ```
