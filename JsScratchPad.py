@@ -3,9 +3,6 @@ import sublime, sublime_plugin
 import subprocess
 import re
 
-PLUGIN_NAME = "JsScratchPad"
-SETTINGS_FILE = '{0}.sublime-settings'.format(PLUGIN_NAME)
-
 class JsScratchPadCommand(sublime_plugin.TextCommand):
   def run(self, edit, **args):
     self.edit = edit
@@ -17,7 +14,7 @@ class JsScratchPadCommand(sublime_plugin.TextCommand):
       view.set_name('JS Scratch Pad')
       view.set_scratch(True)
     else:
-      settings = sublime.load_settings(SETTINGS_FILE)
+      settings = sublime.load_settings('JsScratchPad.sublime-settings')
       node_modules_path = settings.get("node_modules_path")
       libs = settings.get("libs")
       requires = '\n'.join(["const " + v + " = require('" + k + "')" for k, v in libs.items()])

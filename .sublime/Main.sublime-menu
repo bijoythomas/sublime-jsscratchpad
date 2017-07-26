@@ -1,0 +1,20 @@
+[{
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children": [{
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children": [{
+            "caption": "Javascript Scratch Pad",
+            "children": [{
+                "caption": "Settings",
+                "command": "open_file",
+                "args": {
+                    "file": "${packages}/User/JsScratchPad.sublime-settings"
+                }
+            }]
+        }]
+    }]
+}]
